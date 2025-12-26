@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	text-align:center;
+}
+.game{
+	padding:40px;
+	text-align:center;
+	font-size:20px;
+}
+.container{
+	height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+	height:18vmin;
+    width:18vmin;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    border:none;
+    background-color: antiquewhite;
+    font-size: 8vmin;
+    color:red;
+}
+.play{
+	height:60vmin;
+    width:60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5vmin;
+}
